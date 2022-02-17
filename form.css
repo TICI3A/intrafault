@@ -1,0 +1,89 @@
+body {
+    color: #222222;
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: #f9f9f9;
+    background-image: url(https://intranet.i3a.es/uploads/default/original/1X/b3568bb….png);
+    /* background-size: auto; */
+    margin: 0;
+}
+
+h1 {
+    font-size: 0em;
+    padding: 10px 15px 15px;
+    border-bottom: 1px solid #e9e9e9;
+    /* visibility: hidden; */
+    background-color: #424242;
+    margin: 0 0 40px 0;
+}
+h1:after {
+    /* content: "Login"; */
+    content: "";
+    background: url(https://intranet.i3a.es/uploads/default/original/1X/5c73b336b03535b18f1567fcb2fc851ee60dfda0.png) no-repeat center top;
+    visibility: visible;
+    display: block;
+    font-size: 1.429em;
+    padding: 10px 15px 105px;
+    background-color: #424242;
+}
+
+/* form:after {
+    content: "Si no tienes cuenta I3A contacta con: soporte.i3a.es";
+    
+    text-align: center;
+}	 */
+form {
+    padding: 20px;
+    margin: 0px auto;
+    width: 500px;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    background-color: #fff;
+}
+
+input {
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    height: 18px;
+    padding: 4px;
+    margin-bottom: 9px;
+    font-size: 0.929em;
+    line-height: 18px;
+}
+
+/* #username {
+    margin-left: 27px
+}
+ */
+button {
+    border: none;
+    font-weight: normal;
+    color: white;
+    background: #0088cc;
+    padding: 9px 18px;
+    font-size: 1.143em;
+    line-height: 15px;
+    display: block;
+    /* margin-bottom: 25px; */
+    width: 250px;
+    margin: 25px auto;
+}
+button:hover {
+    background: #7bbbdb;
+    cursor: pointer;
+}
+
+label:before {
+    content: ' '; display: block;
+}
+
+a {
+    text-decoration: none;
+    
+}
